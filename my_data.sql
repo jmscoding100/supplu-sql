@@ -42,3 +42,15 @@ from contract
 group by employee_id;
 
 --10 Return the employee name for each contract
+
+
+
+
+
+--11
+
+
+
+
+
+--12
