@@ -3,6 +3,14 @@ CREATE DATABASE satchsupply_2;
 USE satchsupply_2;
 
 
+--create table(
+--keyName datatype any comments about the datatype,
+--keyName datatype any comments about the datatype,
+-- constraints pk_name PRIMARY KEY (key)
+-- if you have a FOREIGN KEY => constraints fk_name FOREIGN KEY (key) REFERENCE keyName (key))
+
+
+
 CREATE TABLE dept(
     dept_id TINYINT UNSIGNED AUTO_INCREMENT NOT NULL,
     dept VARCHAR (30),
@@ -10,6 +18,12 @@ CREATE TABLE dept(
 );
 
 
+
+--change id to tinyint
+--change the varchar to not null
+--change emp_tier to char(1) also not null
+--date_created timestamp default current_timestamp,
+--last_update timestamp default current_timestamp on update current_timestamp,
 CREATE TABLE employee(
     employee_id SMALLINT UNSIGNED AUTO_INCREMENT NOT NULL,
     first_name VARCHAR(40),
